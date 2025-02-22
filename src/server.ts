@@ -37,6 +37,10 @@ app.use(
   }),
 );
 
+app.get('/shorten', (req, res) => {
+  res.status(200).json("hello");
+})
+
 /**
  * Handle all other requests by rendering the Angular application.
  */
